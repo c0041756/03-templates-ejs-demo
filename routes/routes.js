@@ -5,9 +5,10 @@ const router = express.Router();
 module.exports = () => {
   router.get("/example", (req, res) => {
     return res.render("example", {
-      title: "EJS Example",
-      message: "Hello Template",
-      myHeading: "This is my Heading"
+      title: "EJS Kenny's Title",
+      message: "Nice to see you again",
+      myHeading: "Heading",
+      myHeading2: "Help Me"
     });
   });
 
